@@ -15,7 +15,7 @@ Ruby is an object-oriented language. Everything in Ruby is an object. The langug
 
 ...I just defined Object Oriented by saying it's oriented like an object. Let's break it down!
 
-What is an object? It is simply a model of a real world thing. Think of a desk, a student, a car...what methods and properties do these real world objects have?
+What is an object? It is simply a model of a real world thing. Think of a desk, a student, a car...what methods (functionality) and properties (nouns) do these real world objects have? A chair has legs, can be broken, thrown, burned, introduced into a WWF ring, etc.
 
 How do we describe an object oriented language? To be object-oriented, the language must have 4 major principles:
 - Encapsulation
@@ -715,7 +715,7 @@ should not impact (cause bugs) in other areas of our programs.
 
 Clone this exercise and follow the instructions in the readme.
 
-**[Scrabble Word Scorer](https://github.com/ga-dc/scrabbler)**
+**[Scrabble Word Scorer](https://github.com/ga-wdi-pvd/scrabbler)**
 
 ## Resources
 
