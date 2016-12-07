@@ -11,11 +11,27 @@
 
 ## Framing: What is OOP?
 
-Ruby is an object-oriented language. That means it's based on the idea that you'll build your application with objects in mind.
+Ruby is an object-oriented language. Everything in Ruby is an object. The langugage allows us to write code in an object-oriented way. 
 
-As you learned with OOJS, an object is a collection of related attributes (aka properties) and methods (aka behavior). You can think of an object as a little machine: it has displays you can read and buttons you can push.
+...I just defined Object Oriented by saying it's oriented like an object. Let's break it down!
 
-When you write an object-oriented application, the idea is that you write the blueprints for these machines, and then you write a sequence of events your users can initiate in which these machines interact with each other.
+What is an object? It is simply a model of a real world thing. Think of a desk, a student, a car...what methods and properties do these real world objects have?
+
+How do we describe an object oriented language? To be object-oriented, the language must have 4 major principles:
+- Encapsulation
+- Data Abstraction
+- Polymorphism
+- Inheritence
+
+We will define these as we see them today.
+
+Are there other ways to write code besides being object oriented? Yes!
+
+You do not have to use object oriented programming - you could just write functions, variables, and tie them all together at the moment you notice you need some new functionality. Or, you could use another programming paradigm and write in a functional or procedural style. The reason programmers choose an object oriented approach is to reduce complexity and cut down on dependency between different parts of your program. Writing in an object-oriented way is a practice that you must pay attention to. If you do, you will find it makes your code less complex, less error prone, more readable and a joy to work with.
+
+So, as you learned with OOJS, an object is a collection of related attributes (aka properties) and methods (aka behavior). You can think of an object as a machine: it has displays you can read, settings you can configure, and buttons you can press.
+
+When you write an object-oriented application, the idea is that you write the blueprints for these machines (classes), then you create machines from these blueprints (instances of the class). You also write how the machines interact with each other.
 
 Much of the code you see today will be very similar to what you encountered in last week's OOJS class. That's because classes are a concept that have been around for quite some time but only just introduced in Javascript. Use this pre-existing knowledge to your advantage in today's class!
 
@@ -43,7 +59,7 @@ Putting your idea in a nutshell gives you a starting place for what those object
 
 Spend three minutes working with a partner to come up with at least three types of objects that you might define when creating the following examples.
 
-  1. Amazon
+  1. Amazon (The website, or...the jungle)
   2. A Homework Grading App
   3. An Attendance Taking App
   4. Uber
