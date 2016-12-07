@@ -33,11 +33,19 @@ So, as you learned with OOJS, an object is a collection of related attributes (a
 
 When you write an object-oriented application, the idea is that you write the blueprints for these machines (classes), then you create machines from these blueprints (instances of the class). You also write how the machines interact with each other.
 
-Much of the code you see today will be very similar to what you encountered in last week's OOJS class. That's because classes are a concept that have been around for quite some time but only just introduced in Javascript. Use this pre-existing knowledge to your advantage in today's class!
+Much of the code you see today will be very similar to what you encountered in our OOJS class. That's because classes are a concept that have been around for quite some time but only just introduced in Javascript. Use this pre-existing knowledge to your advantage in today's class!
 
 ## You Do: The OOP Process (10 minutes / 0:10)
 
-We've talked quite a bit about object oriented programming as a paradigm, but we haven't talked much about how to break a problem down into object components. Let's try one together...
+One of the main benefits of writing in an object-oriented style is breaking down a complex problem into manageable components. 
+
+Let's try breaking down a few things found in the real world into bite-sized chunks that we programmers can use:
+
+#### Example: Chocolate Chip Cookie
+- Ingredients
+- Size
+- Shape
+- Percentage eaten
 
 #### Example: Tic Tac Toe
 
@@ -46,6 +54,7 @@ We've talked quite a bit about object oriented programming as a paradigm, but we
 - Game
 - Players
 - Squares
+- Game Pieces (ex: chocolate chip cookes and 'x's)
 
 #### Example: Facebook
 
@@ -431,6 +440,12 @@ https://github.com/ga-wdi-exercises/oop_monkey
 
 -------
 
+### Research: What other kinds of variables are available in Ruby?
+ - Spend 10 minutes, and as a pod:
+  - Investigate what other kinds of variables we can use in Ruby?
+  - How many variable types are there in Ruby?
+  - What are the pros and cons of each kind of variable?
+  
 ## Class Attributes / Variables (5 minutes / 1:25)
 
 Let's come up with a way of keeping track of how many users have been created total...
